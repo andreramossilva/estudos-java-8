@@ -8,6 +8,12 @@ public class Usuario {
 
     private boolean moderador;
 
+    public Usuario() {}
+
+    public Usuario(final String nome) {
+        this.nome = nome;
+    }
+
     public Usuario(String nome, int pontos) {
         this.pontos = pontos;
         this.nome = nome;
