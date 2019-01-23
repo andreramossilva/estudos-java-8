@@ -1,6 +1,6 @@
-package com.br.estudos.livro.casadocodigo.cap6;
+package br.com.estudos.livro.casadocodigo.cap6;
 
-import com.br.estudos.livro.casadocodigo.cap2.Usuario;
+import br.com.estudos.livro.casadocodigo.cap2.Usuario;
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;

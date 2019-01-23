@@ -1,4 +1,4 @@
-package com.br.estudos.livro.casadocodigo.cap2;
+package br.com.estudos.livro.casadocodigo.cap2;
 
 import java.util.Arrays;
 import java.util.List;

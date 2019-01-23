@@ -1,4 +1,4 @@
-package com.br.estudos.livro.casadocodigo.cap2;
+package br.com.estudos.livro.casadocodigo.cap2;
 
 public class Usuario {
 
@@ -8,7 +8,14 @@ public class Usuario {
 
     private boolean moderador;
 
-    public Usuario() {}
+    public Usuario() {
+    }
+
+    public Usuario(final String nome, final int pontos, final boolean moderador) {
+        this.pontos = pontos;
+        this.nome = nome;
+        this.moderador = moderador;
+    }
 
     public Usuario(final String nome) {
         this.nome = nome;
@@ -38,15 +45,6 @@ public class Usuario {
 
     @Override
     public String toString() {
-        final StringBuilder builder = new StringBuilder()//
-                .append("Usuario [")//
-                .append("nome=\"")//
-                .append(nome).append("\"")//
-                .append(",pontos=")//
-                .append(pontos)//
-                .append(",moderador=")//
-                .append(moderador)//
-                .append("]");
-        return builder.toString();
+        return nome;
     }
 }
